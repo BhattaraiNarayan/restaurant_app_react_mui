@@ -49,7 +49,7 @@ export const MenuList = [
     description:
       "ラーメンは、日本発祥の人気のある麺料理であり、世界中で愛されている食べ物です。以下にその特徴や基本的な要素について説明します",
     image: Ramen,
-    price: 500,
+    price: 600,
   },
   {
     name: "抹茶",
