@@ -35,7 +35,7 @@ export const MenuList = [
     description:
       "天ぷらラーメンは、日本の料理であり、天ぷらとラーメンを組み合わせた独特のメニューです。以下にその特徴や調理法について説明します。",
     image: Tenpuramen,
-    price: 600,
+    price: 500,
   },
   {
     name: "寿司",
