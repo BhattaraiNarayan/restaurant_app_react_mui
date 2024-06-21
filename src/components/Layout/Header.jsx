@@ -81,20 +81,32 @@ const Header = () => {
                   <NavLink
                     activeClassName="active"
                     to={"/restaurant_app_react_mui/home"}
+                    onClick={() => window.scrollTo(0, 0)}
                   >
                     ホーム
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/restaurant_app_react_mui/menu"}>
+                  <NavLink
+                    to={"/restaurant_app_react_mui/menu"}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     メニュー
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/restaurant_app_react_mui/about"}>概要</NavLink>
+                  <NavLink
+                    to={"/restaurant_app_react_mui/about"}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
+                    概要
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/restaurant_app_react_mui/contact"}>
+                  <NavLink
+                    to={"/restaurant_app_react_mui/contact"}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     お問い合わせ
                   </NavLink>
                 </li>
