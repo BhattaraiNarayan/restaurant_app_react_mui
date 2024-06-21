@@ -32,18 +32,20 @@ const Header = () => {
       <Divider />
       <ul className="mobile-navigation">
         <li>
-          <NavLink activeClassName="active" to={"/"}>
+          <NavLink activeClassName="active" to={"/restaurant_app_react_mui/home"}>
             ホーム
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/menu"}>メニュー</NavLink>
+          <NavLink to={"/restaurant_app_react_mui/menu"}>メニュー</NavLink>
         </li>
         <li>
-          <NavLink to={"/about"}>概要</NavLink>
+          <NavLink to={"/restaurant_app_react_mui/about"}>概要</NavLink>
         </li>
         <li>
-          <NavLink to={"/contact"}>お問い合わせ</NavLink>
+          <NavLink to={"/restaurant_app_react_mui/contact"}>
+            お問い合わせ
+          </NavLink>
         </li>
       </ul>
     </Box>
@@ -76,18 +78,25 @@ const Header = () => {
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
                 <li>
-                  <NavLink activeClassName="active" to={"/"}>
+                  <NavLink
+                    activeClassName="active"
+                    to={"/restaurant_app_react_mui/home"}
+                  >
                     ホーム
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/menu"}>メニュー</NavLink>
+                  <NavLink to={"/restaurant_app_react_mui/menu"}>
+                    メニュー
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/about"}>概要</NavLink>
+                  <NavLink to={"/restaurant_app_react_mui/about"}>概要</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/contact"}>お問い合わせ</NavLink>
+                  <NavLink to={"/restaurant_app_react_mui/contact"}>
+                    お問い合わせ
+                  </NavLink>
                 </li>
               </ul>
             </Box>

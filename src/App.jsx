@@ -13,10 +13,14 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/menu" element={<Menu />} />
+          <Route path="/restaurant_app_react_mui/" element={<Home />} />
+          <Route path="/restaurant_app_react_mui/home" element={<Home />} />
+          <Route path="/restaurant_app_react_mui/about" element={<About />} />
+          <Route
+            path="/restaurant_app_react_mui/contact"
+            element={<Contact />}
+          />
+          <Route path="/restaurant_app_react_mui/menu" element={<Menu />} />
           <Route path="*" element={<Pagenotfound />} />
         </Routes>
       </BrowserRouter>
